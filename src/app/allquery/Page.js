@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Innerbanner from '../components/Innerbanner';
 
-const Page = () => {
+const page = () => {
   const [contacts, setContacts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -64,7 +64,7 @@ const Page = () => {
                 <td>{contact.name}</td>
                 <td>{contact.email}</td>
                 <td>{contact.phone}</td>
-                <td>{contact.company}</td>
+                <td>{contact.comapany}</td>
                 <td>{formatDate(contact.createdAt)}</td>
                 <td>{contact.description}</td>
               </tr>
@@ -72,8 +72,8 @@ const Page = () => {
           </tbody>
         </table>
       </div>
-    </> 
-  );
+    </>  
+  ); 
 };
 
-export default Page;
+export default page;

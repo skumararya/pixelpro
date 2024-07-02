@@ -589,7 +589,8 @@ button.mfp-arrow:hover{ opacity:0.7; }
 .searchFieldWrap :-ms-input-placeholder {color:#222222; opacity:0.8;}
 .searchFieldWrap :-moz-placeholder {color:#222222; opacity:0.8;}
 #header {position:absolute; z-index:111; left:0; width:100%; top:-110px; padding-top:110px;}
-.headerLeft{width:100px; float:left; padding:30px 0 0;}
+.headerLeft{width:180px; float:left; padding:30px 0 0;}
+.headerLeft img{width: 100%;}
 .headerRight{float:right; max-width:85%; position:relative; margin:30px 0 0; position:relative; padding-right:175px;} 
 #header h1 {font-size:14px;}
 .headerInner { position:relative; }

@@ -41,7 +41,7 @@ const AllQuery = () => {
   if (error) return <p>{error}</p>;
   return (
     <>
-      <Innerbanner title={"Query List"} />
+      {/* <Innerbanner title={"Query List"} /> */}
       <div className="container">
         <h2>Query List</h2>
         <table className="contactTable">

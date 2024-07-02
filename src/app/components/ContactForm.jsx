@@ -28,7 +28,7 @@ const ContactForm = () => {
     }),
     onSubmit: async (values, { resetForm }) => {
       try {
-        const response = await axios.post('http://localhost:3000/api/messages',  qs.stringify(values),
+        const response = await axios.post('api/messages',  qs.stringify(values),
         {
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded',

@@ -12,7 +12,7 @@ const Page = () => {
   useEffect(() => {
     const fetchContacts = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/messages');
+        const response = await axios.get('api/messages');
         const reversearr = response && response.data.reverse();
         setContacts(reversearr);
         setLoading(false);
